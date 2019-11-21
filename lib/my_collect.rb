@@ -1,15 +1,16 @@
 require 'pry'
 
 def my_collect(array)
-    i = 0
     new_array= []
+    i = 0
     
-    
-    while       do
-    yield
+    while i < array.length
+    new_array << (array[i])
+    yield 
     puts
     
     i++ 
+    
     end
   
 end
